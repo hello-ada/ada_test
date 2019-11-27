@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
-using namespace std;  
+using namespace std; 
+
 int minCoins(int coins[], int m, int V) 
 { 
 	int table[V+1]; 
