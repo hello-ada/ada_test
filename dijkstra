@@ -12,7 +12,7 @@ void djikstra(int src)
 	dist[src]=0;
 	vis[src]=1;
 	count=1;
-	w+hile(count!=n)
+	while(count!=n)
 	{
 		min=INT_MAX;
 		for(int j=0;j<n;j++)
